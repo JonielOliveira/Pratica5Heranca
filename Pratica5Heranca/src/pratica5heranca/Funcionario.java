@@ -19,12 +19,12 @@ public class Funcionario extends Pessoa {
     }
     
     public double aumentar_Salario(double percentual){
-        this.salario = (percentual + this.salario) + this.salario;
+        return this.salario = (percentual + 1) * this.salario;
     }
     
     @Override
     public String toString(){
-        return ("Salario atual: " + aumentar_Salario);
+        return ("Salario atual: " + this.salario);
     }
     
 }
