@@ -1,5 +1,5 @@
 
-package pratica5heranca;
+package pratica5heranca1;
 
 public class Principal {
     
