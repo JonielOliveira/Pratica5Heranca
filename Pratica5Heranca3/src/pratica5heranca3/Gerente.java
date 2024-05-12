@@ -5,7 +5,7 @@ public class Gerente extends Funcionario{
     
     private int senha;
     
-    public Gerente(String nome, int cpf, double salario, int senha){
+    public Gerente(String nome, long cpf, double salario, int senha){
         super(nome, cpf, salario);
         this.senha = senha;
     }

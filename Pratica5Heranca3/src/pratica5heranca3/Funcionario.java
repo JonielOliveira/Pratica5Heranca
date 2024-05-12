@@ -4,10 +4,10 @@ package pratica5heranca3;
 public class Funcionario {
     
     protected String nome;
-    protected int cpf;
+    protected long cpf;
     protected double salario;
     
-    public Funcionario(String nome, int cpf, double salario){
+    public Funcionario(String nome, long cpf, double salario){
         this.nome = nome;
         this.cpf = cpf;
         this.salario = salario;
@@ -17,7 +17,7 @@ public class Funcionario {
         return nome;
     }
     
-    public int getCpf(){
+    public long getCpf(){
         return cpf;
     }
     
@@ -29,7 +29,7 @@ public class Funcionario {
         this.nome = nome;
     }
     
-    public void setCpf(int cpf){
+    public void setCpf(long cpf){
         this.cpf = cpf;
     }
     
